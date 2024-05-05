@@ -1,0 +1,50 @@
+<%- include('header.ejs') %>
+<div class="container">
+  <!-- cathing the situation where user is trying to generate new short link  -->
+  <!-- where shortlink property is not passed from server side -->
+  <% if (locals.shortlink) { %>
+  <h3><label for="result">Here is the Shorter version</label></h3>
+  <div class="result-section">
+    <input type="text" name="result" id="result" value="<%= shortlink %>" />
+    <button class="copy-btn" onclick="myFunction()">Copy</button>
+  </div>
+  <div>
+    <button class="another-link-btn"><a href="/shortning">Another</a></button>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="copytext.js"></script>
+
+  <% } else { %>
+  <h3>Enter Your Long link / URL Below & Submit</h3>
+  <form class="input-section" action="/shortning" method="post">
+    <input
+      class="input-area"
+      autofocus="autofocus"
+      type="text"
+      name="Longlink"
+    />
+    <input type="submit" id="submit" value="Submit" />
+  </form>
+  <div class="notice">
+    <p>DISCLAIMER</p>
+    <ul>
+      <li style="font-weight: bold">
+        Example: https://www.youtube.com/watch?v=xQtC3F8fH6g
+      </li>
+      <li>Try These ☝🏻 Type Long URL's</li>
+      <br />
+      <li>
+        Please don't try direct link's of any website beacuse in direct landing
+        page link's api The generated random 18+ web link that is an API Glitch
+        so please BE AWARE and try complex longer links.
+      </li>
+      <li style="font-weight: bold">
+        Example : https://www.youtube.com/ 👈🏻 this will not work because they
+        are alredy short and simple
+      </li>
+    </ul>
+  </div>
+  <% } %>
+</div>
+
+<%- include('footer.ejs') %>

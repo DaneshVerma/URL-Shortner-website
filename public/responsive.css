@@ -1,0 +1,114 @@
+@media (max-width: 768px) and (min-width: 426px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .start-btn,
+  #submit,
+  .another-link-btn,
+  .copy-btn,
+  .home-btn {
+    font-size: 1rem;
+    padding: 0.1rem 0.3rem;
+    width: 4rem;
+  }
+  nav {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  .notice {
+    width: 70vw;
+  }
+  .home-btn {
+    font-size: 0.8rem;
+  }
+  .about-text p {
+    font-size: 0.8rem;
+  }
+  .about-text {
+    margin: 0px 10vw;
+  }
+}
+
+@media (max-width: 425px) and (min-width: 376px) {
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .start-btn,
+  #submit,
+  .another-link-btn,
+  .copy-btn,
+  .home-btn {
+    font-size: 0.8rem;
+    width: 4rem;
+  }
+  .input-area,
+  #result {
+    width: 60vw;
+  }
+  .notice {
+    width: 95vw;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  nav {
+    font-size: 0.9rem;
+    height: 3rem;
+  }
+  .about-text p {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 375px) and (min-width: 320px) {
+  .about-text p {
+    font-size: 0.8rem;
+  }
+  .about-text {
+    margin: 0px 5vw;
+  }
+
+  .copy-btn,
+  .home-btn {
+    width: 16vw;
+  }
+  nav ul, footer ul {
+    margin: 0;
+  }
+  nav {
+    font-size: 1rem;
+    height: 4rem;
+}
+h3{
+    font-size: 1rem;
+}
+h1 {
+    font-size: 1.6rem;
+}
+p {
+    font-size: 0.8rem;
+}
+.start-btn, #submit, .another-link-btn, .copy-btn, .home-btn {
+    font-size: 1rem;
+    width: 25vw;
+    height: 5vh;
+}
+.notice {
+    width: 95vw;
+  }
+ .input-area, #result {
+    font-size: 1rem;
+    width: 50vw;}
+
+    body > div > div > ul{
+        padding: 2px;
+    }
+}
