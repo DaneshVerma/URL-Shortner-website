@@ -7,12 +7,13 @@ to see the live website go Here :
 Download all the code Open the Directory in terminal where you downloaded the code. 
 
 and run these command one by One
-
-  npm install 
+```
+  npm install
+```
 
 after that
-
+```
  node index.js
-
+```
 and there you go open your browser and go to:  http://localhost:3000/
 enjoy!
