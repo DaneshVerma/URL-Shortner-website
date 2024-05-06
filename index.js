@@ -28,7 +28,7 @@ app.post('/shortning', async(req, res)=>{
         var resultURL =response.data.result_url
         // Beacuse the API convert's the shorter links wrong so this if statment is for minimizing it 
         // until the  user's link is smaller then 60 charectors user can't get output
-        if(Longlink.length > 60){
+        if(Longlink.length > 55){
             res.render("shortning.ejs", {shortlink : resultURL})
         }else{
             res.render("error.ejs", {error: "URL is not longer as needed for shorting try longer URL's"}) 
