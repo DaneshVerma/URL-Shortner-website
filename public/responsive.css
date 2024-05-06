@@ -46,9 +46,9 @@
   .another-link-btn,
   .copy-btn,
   .home-btn {
-    font-size: 0.8rem;
-    width: 4rem;
-  }
+    font-size: 1.5rem;
+        width: 5rem;
+    }
   .input-area,
   #result {
     width: 60vw;
