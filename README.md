@@ -15,9 +15,9 @@ after that
 ```
  node index.js
 ```
-you  will in your terminal an output saying  
+in your terminal you will see an output saying  
 server running on port :3000  
 
-now dont close the terminal
+now don't close the terminal
 open your browser and go to:  http://localhost:3000/
 Here you can see the site.
