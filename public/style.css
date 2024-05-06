@@ -53,7 +53,7 @@ p{
     cursor: pointer;
     padding: 0.2rem 0.6rem; 
     border: solid var(--color) 1px;
-    width: 14vw;
+    width: 15vw;
     height: 8vh;
     color: var(--color);
     background-color: transparent;
