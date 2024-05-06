@@ -51,6 +51,10 @@
     .copy-btn{
       font-size: 1rem;
     }
+    
+.about {
+  padding: 7px 10px;
+}
   .input-area,
   #result {
     width: 60vw;
