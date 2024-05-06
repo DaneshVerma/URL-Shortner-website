@@ -1,0 +1,170 @@
+:root{
+    --color: #F6F5F2;
+    --hovercolor: #6b72805e;
+    --noticecolor: rgb(165, 152, 152);
+}
+
+*{
+    color: var(--color);
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+nav ul, footer ul{
+    display: flex;  
+    justify-content: space-between;
+    margin: 0 4rem;
+    padding: 1rem;
+}
+
+
+footer ul{
+justify-content: center;
+gap: 2rem;
+}
+
+nav{
+    height: 4.5rem;
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.start-btn, #submit, .another-link-btn, .copy-btn, .home-btn{
+    font-size: 2rem;
+    border-radius:20px;
+    cursor: pointer;
+    padding: 0.2rem 0.6rem; 
+    border: solid var(--color) 1px;
+    width: 15vw;
+    height: 8vh;
+    color: var(--color);
+    background-color: transparent;
+
+}
+
+.about{
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.about:hover, .start-btn:hover, .another-link-btn:hover, #submit:hover, .home-btn:hover{
+background-color: var(--hovercolor);
+}
+
+
+h3{
+    font-size: 2rem;
+}
+.input-area, #result{
+font-size: 1rem;
+width: 30vw;
+height: 5vh;
+border-radius: 5px;
+padding: 3px 5px;
+border: solid gray 1px;
+outline: none;
+background-color: transparent;
+}
+.input-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p{
+    color: #909192;
+}
+.copy-btn, .home-btn{
+    height: 6vh;
+    width: 6vw;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+.home-btn{
+    align-self: center;
+}
+
+
+.another-link-btn{
+    font-size: 1.5rem;
+    height: 6vh;
+    width: 15vw;
+}
+
+#myVideo {
+    z-index: -1;    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+.notice{
+    align-self: center;
+    border: 1px solid gray;
+    width: 30vw;
+    border-radius: 20px;
+}
+
+.my-img{
+    border-radius: 50%;
+    align-self: center;
+}
+
+.about-text{
+    margin: 0 25vw;
+}
+.about-text p{
+    font-size: 1.3rem;
+    color: var(--noticecolor);
+}
+
+.notice p {
+    color: var(--noticecolor);
+}
+.notice ul li{
+color: var(--noticecolor)
+}
+
+body > div > div > ul{
+    padding: 2px;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #myVideo{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #myVideo{
+        width: auto;
+        height: 100%;
+    }
+}
