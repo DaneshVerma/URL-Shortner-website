@@ -152,6 +152,10 @@ footer p{
 color: var(--noticecolor)
 }
 
+body > div > div > ul{
+    padding: 2px;
+}
+
 @media (min-aspect-ratio: 16/9) {
     #myVideo{
         width: 100%;
