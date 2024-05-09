@@ -21,3 +21,4 @@ server running on port :3000
 now don't close the terminal
 open your browser and go to:  http://localhost:3000/
 Here you can see the site.
+  
