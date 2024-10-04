@@ -36,7 +36,7 @@ app.post('/shortning', async(req, res)=>{
     } catch (error){
         // catching error if client enter's nothing and submit
         console.log(JSON.stringify(error.message))
-        res.render("error.ejs", {error: "Empty Input's are Not Accepted"}) 
+        res.render("error.ejs", {error: "Sorry But the API is currently down !!"}) 
     }
 })
 
